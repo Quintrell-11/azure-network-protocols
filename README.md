@@ -27,13 +27,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - See traffic from other virtual Machine
 - Filter Inforation
-- Filter Information
+- Mske secure connection to other VM
 - 
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![6FE5E24C-8BCD-48C0-914D-02A04BAD61E8](https://github.com/user-attachments/assets/2e00c0f0-3ff7-44a3-b7e0-cfe1916b6c04)
+
 </p>
 <p>
 After downloading (Wire Shark) observed traffic between the virtual machines by useing (Powershell) to (ping)ing the private ip address. Now that i can see the traffic I isolated the data from the other (VM) by typing (icmp) into wire shark. Now I can see the CPU's communicating between eachother.
@@ -41,10 +43,12 @@ After downloading (Wire Shark) observed traffic between the virtual machines by 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![image](https://github.com/user-attachments/assets/44e37d3a-6685-41d9-a1ad-25f006013610)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To create a secure connection to my other (VM) or connection to another computer and observe the traffic; filtering for (SSH). Inside of Powershell I typed ssh the other day(VM's) username@the private ip address. (ssh labuser@10.5.0.5) and when prompted entered my credentials and have secured a secure connection to the other computer. Access to all information is now disoverable by search from within Powershell.
 </p>
 <br />
 
