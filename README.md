@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 </p>
 <p>
-After downloading (Wire Shark) observed traffic between the virtual machines by useing (Powershell) to (ping)ing the private ip address. Now that i can see the traffic I isolated the data from the other (VM) by typing (icmp) into wire shark. Now I can see the CPU's communicating between eachother.
+After downloading (Wire Shark) observed traffic between the virtual machines by using (Powershell) to (ping)ing the private ip address. Now that i can see the traffic I isolated the data from the other (VM) by typing (icmp) into wire shark. Now I can see the CPU's communicating between eachother.
 </p>
 <br />
 
